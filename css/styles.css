@@ -844,10 +844,12 @@ textarea {
     box-sizing: border-box;
     border-radius: 4px;
     padding-left: 40px;
+    height: 40px;
 }
 
 .form-field .comment {
     padding-left: 15px;
+    height: 120px;
 }
 
 .form-input:focus {
@@ -900,10 +902,10 @@ textarea {
 
 .form-icon {
     position: absolute;
-    top: 50%;
+    top: 52%;
     left: 12px;
-    width: 18px;
-    height: 18px;
+    width: 16px;
+    height: 16px;
     fill: var(--header-text-color);
 }
 
@@ -925,8 +927,8 @@ textarea {
     width: 15px;
     height: 15px;
     background-color: var(--white-text-color);
-    border: 3px solid var(--header-text-color);
-    border-radius: 4px;
+    border: 2px solid var(--header-text-color);
+    border-radius: 2px;
     margin-right: 8px;
 }
 
