@@ -922,7 +922,8 @@ textarea {
 }
 
 .checkbox {
-    /*     position: absolute; */
+    position: relative;
+    display: inline-block;
     margin-left: -1.2em;
     width: 15px;
     height: 15px;
@@ -934,7 +935,7 @@ textarea {
 
 .check-input:checked + .checkbox {
     background-color: var(--accent-color);
-    border: 3px solid var(--accent-color);
+    border: 2px solid var(--accent-color);
 }
 
 /* .check-input:focus + .checkbox {
